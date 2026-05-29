@@ -6,12 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springMVC_002_indextest" />
+        <module name="springMVC_003_RequestMapping" />
+        <module name="springMVC_001_firstitem" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springMVC_001_firstitem (1)" target="17" />
       <module name="springMVC_001_firstitem (2)" target="17" />
+      <module name="springMVC_002_indextest (1)" target="17" />
+      <module name="springMVC_002_indextest (2)" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

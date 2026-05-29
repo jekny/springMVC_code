@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/springMVC_001_firstitem/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC_002_indextest/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC_003_RequestMapping/pom.xml" />
       </list>
     </option>
   </component>
