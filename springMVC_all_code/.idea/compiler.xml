@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springMVC_003_RequestMapping" />
         <module name="springMVC_001_firstitem" />
+        <module name="springMVC_002_indextest" />
+        <module name="springMVC_004_getUrlData" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
