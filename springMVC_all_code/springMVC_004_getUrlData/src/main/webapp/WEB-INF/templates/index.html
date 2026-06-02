@@ -5,6 +5,11 @@
     <title>index</title>
 </head>
 <body>
-<h1>this is index page</h1>
 </body>
+<div style="text-align: center"><h1>映射成功后，后端如何获取前端提交的数据</h1></div>
+<form th:action="@{/register}" method="post">
+    id:<input name="id" type="text"><br>
+    name:<input name="name" type="text"><br>
+    <input name="submit" type="submit" value="提交注册"><br>
+</form>
 </html>
