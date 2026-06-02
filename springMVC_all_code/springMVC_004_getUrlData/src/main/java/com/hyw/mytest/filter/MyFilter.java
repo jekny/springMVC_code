@@ -13,7 +13,6 @@ import java.io.IOException;
  * @Create 2026/6/2 21:51
  * @Version 1.0
  */
-@WebFilter("/*")
 public class MyFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain)
