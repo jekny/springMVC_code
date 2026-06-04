@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yu</title>
+</head>
+<body>
+<h1>在域中存取数据</h1>
+<h1>Map 中的数据：</h1>
+<ul>
+    <li th:each="entry : ${test1}">
+        <span th:text="${entry.key}"></span> =
+        <span th:text="${entry.value}"></span>
+    </li>
+</ul>
+<h1 th:text="${test2}"></h1>
+<h1 th:text="${test22}"></h1>
+</body>
+</html>
