@@ -15,7 +15,7 @@
         <!--作用于视图渲染的过程中，可以设置视图渲染后输出时采用的编码字符集-->
         <property name="characterEncoding" value="UTF-8"/>
         <!--如果配置多个视图解析器，它来决定优先使用哪个视图解析器，它的值越小优先级越高-->
-        <property name="order" value="2"/>
+        <property name="order" value="1"/>
         <!--当 ThymeleafViewResolver 渲染模板时，会使用该模板引擎来解析、编译和渲染模板-->
         <property name="templateEngine">
             <bean class="org.thymeleaf.spring6.SpringTemplateEngine">
